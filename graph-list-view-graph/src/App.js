@@ -7,7 +7,7 @@ const App = () => {
     { date: '2023-01-01', price: 17500 },
     { date: '2023-02-01', price: 16000 },
     { date: '2023-03-01', price: 18000 },
-    // Add more data as needed
+    
   ];
 
   const [selectedGraph, setSelectedGraph] = useState(null);
@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const handleDeleteGraph = (graph) => {
-    // Delete the graph and update the data accordingly
+   
   };
 
   return (
@@ -30,7 +30,7 @@ const App = () => {
       {selectedGraph && (
         <div className="selected-graph">
           <h2>{`Graph for ${selectedGraph.date}`}</h2>
-          {/* Render the graph using the selected graph data */}
+          
         </div>
       )}
     </div>
