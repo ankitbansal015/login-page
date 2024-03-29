@@ -1,0 +1,22 @@
+.add-button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.remove-button {
+  padding: 8px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-button:hover,
+.remove-button:hover {
+  opacity: 0.8;
+}
